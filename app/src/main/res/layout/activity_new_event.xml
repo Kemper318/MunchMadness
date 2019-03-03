@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Event "
+        android:gravity="center"
+        android:textSize="32sp"
+        />
+    <TextView
+        android:id="@+id/newEventname_text"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="New Event Name:"
+        android:textSize="22sp"/>
+    <EditText
+        android:id="@+id/Eventname_input"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:inputType="text"
+        android:text="Enter Name"
+        />
+    <TextView
+        android:id="@+id/DateDeadline_text"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Date Deadline:"
+        android:textSize="22sp"/>
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="74dp">
+
+    </TimePicker>
+    <TextView
+        android:id="@+id/invitee_text"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Add Your Friends:"
+        android:textSize="22sp"/>
+    <EditText
+        android:id="@+id/invitee_input"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:inputType="text"
+        android:text="Friends" />
+    <TextView
+        android:id="@+id/restaurants_text"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Add Your Restaurants:"
+        android:textSize="22sp"/>
+    <EditText
+        android:id="@+id/restaurants_input"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:inputType="text"
+        android:text="Restaurants" />
+    <Button
+        android:id="@+id/SubmitNew"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:text="SUBMIT"
+        />
+</LinearLayout>
